@@ -17,7 +17,7 @@ jobs:
     steps:
       - run: echo "This is a test step"
       
-    odc-backend:
+  odc-backend:
     runs-on: ubuntu-latest
     name: depecheck_test
     steps:
